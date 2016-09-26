@@ -28,7 +28,7 @@ Gulp CLI
 > npm run server
 
 ## Config ##
-MongoDB accesses and files paths could be configured in `config.ts`
+MongoDB accesses and files paths could be configured in `config.js`
 
 **Default config**
 ```javascript
@@ -55,14 +55,14 @@ exports.port = process.env.PORT || 3000;
 ```
 
 ## Seed database ##
-Database seed could be write in `helpers/sedd.ts`
+Database seed could be write in `helpers/seed.js`
 
 Run seed with `npm run seed` command
 
 ## Unit tests ##
 Unit tests with use of [Jasmine](http://jasmine.github.io/) should be added in `spec/` folder.
 
-Unit test file name pattern: `*.spec.ts`
+Unit test file name pattern: `*.spec.js`
 
 Run unit tests with `npm test` command
 
