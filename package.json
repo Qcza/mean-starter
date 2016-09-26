@@ -1,0 +1,32 @@
+{
+  "name": "mean-starter",
+  "version": "1.0.0",
+  "description": "mean-starter",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run gulp\" ",
+    "server": "node server.js",
+    "postinstall": "bower install",
+    "test": "jasmine-node --captureExceptions spec/",
+    "gulp": "gulp"
+  },
+  "repository": "https://github.com/Qcza/mean-starter.git",
+  "author": "Qcza",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "concurrently": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.75.0"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "multer": "^1.2.0",
+    "path": "^0.12.7"
+  }
+}

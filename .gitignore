@@ -1,0 +1,6 @@
+**/*.css
+/npm-debug.log*
+/.idea
+/.vscode
+/node_modules
+/app/components/**/*
