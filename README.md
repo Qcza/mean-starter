@@ -1,4 +1,7 @@
 # mean-starter
+[![dependencies Status](https://david-dm.org/Qcza/mean-starter/status.svg)](https://david-dm.org/Qcza/mean-starter)
+[![devDependencies Status](https://david-dm.org/Qcza/mean-starter/dev-status.svg)](https://david-dm.org/Qcza/mean-starter?type=dev)
+
 Starter for application based on MEAN stack.
 
 ## MEAN ##
