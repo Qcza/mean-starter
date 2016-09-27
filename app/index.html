@@ -15,7 +15,8 @@
 </head>
 <body>
     <div class="title" ng-controller="appController">
-        {{title}} <i class="fa fa-smile-o"></i>
+        <app-directive></app-directive>
+        <i class="fa fa-{{ icon }}-o"></i>
     </div>
 
     <!-- JavaScript -->
@@ -30,6 +31,8 @@
     <!-- Angular App -->
     <script src="js/app.js"></script>
     <script src="js/controllers/app.controller.js"></script>
+    <script src="js/directives/app.directive.js"></script>
+
 
 </body>
 </html>
