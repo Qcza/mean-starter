@@ -89,4 +89,9 @@ app.get('/', function (req, res) {
 // })
 // app.delete('/', function (req, res) {
 // })
+
+app.get('/data', function (req, res) {
+   res.send('smile');
+});
+
 app.listen(config.port);
