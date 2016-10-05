@@ -1,1 +1,0 @@
-"use strict";app.factory("appFactory",["$http","$q",function(t,e){return{getData:function(){var r=e.defer();return t.get("/data").then(function(t){r.resolve(t.data)},function(){r.reject({})}),r.promise}}}]);

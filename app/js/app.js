@@ -1,1 +1,0 @@
-"use strict";const app=angular.module("app",["ui.bootstrap","ngAnimate","ngTouch"]);

@@ -1,1 +1,0 @@
-"use strict";app.controller("appController",["$scope","appFactory",function(t,o){o.getData().then(function(o){t.icon=o})}]);

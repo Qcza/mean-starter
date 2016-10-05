@@ -1,7 +1,7 @@
 **/*.css
-/app/js/**/*.js
 /npm-debug.log*
 /.idea
 /.vscode
 /node_modules
 /app/components/**/*
+/app/js/**/*.js
