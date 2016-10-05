@@ -1,6 +1,7 @@
 "use strict";
 const mongodb = require('mongodb');
 const assert = require('assert');
+const co = require('co');
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
