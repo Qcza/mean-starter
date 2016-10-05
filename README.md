@@ -86,6 +86,8 @@ Additional Express packages
 Additional packages
 - bcrypt (https://github.com/ncb000gt/node.bcrypt.js)
 - path (https://github.com/jinder/path)
+- co (https://github.com/tj/co)
+- pump (https://github.com/mafintosh/pump)
 
 ## Used additional dev packages ##
 Unit tests
@@ -98,4 +100,5 @@ Packages manager
 Tasks automation tools
 - Gulp (http://gulpjs.com/)
 - Gulp-sass (https://github.com/dlmanning/gulp-sass)
+- Gulp-uglify (https://github.com/terinjokes/gulp-uglify)
 - Browser-sync (https://www.browsersync.io/)
